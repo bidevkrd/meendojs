@@ -1,3 +1,4 @@
+console.log('injected');
 function initapp() {
 	console.log('initapp');
     $(document).ready(

@@ -8,6 +8,7 @@ function initapp() {
 }
 
 function jq() {
+	console.log('jq');	
     var s = document.createElement('script');
     s.setAttribute('src', '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js');
     document.addEventListener('DOMContentLoaded', initapp, true);
@@ -16,7 +17,7 @@ function jq() {
 
 function injectform() {
     $('body').append(
-        $();
+        // $();
     );
 }
 

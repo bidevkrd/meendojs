@@ -1,14 +1,14 @@
 function initapp() {
-    $(document).ready,
+    $(document).ready(
         function() {
-			console.log('complete');
+            console.log('complete');
         }
     );
 }
 
 function jq() {
     var s = document.createElement('script');
-    s.setAttribute('src', '//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js');
+    s.setAttribute('src', '//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js');
     document.addEventListener('DOMContentLoaded', initapp, true);
     document.head.appendChild(s);
 }
